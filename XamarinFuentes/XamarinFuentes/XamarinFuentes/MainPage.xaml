@@ -4,11 +4,10 @@
              xmlns:local="clr-namespace:XamarinFuentes"
              x:Class="XamarinFuentes.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+        <Label Text="Fuente por defecto de Xamarin.Forms" HorizontalOptions="CenterAndExpand" FontSize="20" />
+        <Label Text="  Fuente de Android  " HorizontalOptions="CenterAndExpand" FontSize="30" FontFamily="{StaticResource Avengers}" />
+        <Label Text="Fuente de iOS" HorizontalOptions="CenterAndExpand" FontSize="30" FontFamily="{StaticResource Tesla}" />
     </StackLayout>
 
 </ContentPage>
