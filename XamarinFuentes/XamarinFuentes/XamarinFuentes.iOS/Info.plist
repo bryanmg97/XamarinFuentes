@@ -34,9 +34,9 @@
 	<string>XamarinFuentes</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
-	<key>Fonts provided by application</key>
-	<array>
-		<string>Fonts/tesla.ttf</string>
-	</array>
+  <key>UIAppFonts</key>
+  <array>
+    <string>Fonts/tesla.ttf</string>
+  </array>
 </dict>
 </plist>
